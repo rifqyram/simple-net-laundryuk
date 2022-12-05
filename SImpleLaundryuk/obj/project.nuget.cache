@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "R08Uzh2hbWX98/ke3iDcRb1PD/ItATqwa4kAhBs/5jt24ssIc73pGU6YCoio7RMYASYaHFDOQrl24uR2+g2uXQ==",
+  "success": true,
+  "projectFilePath": "/Users/user/RiderProjects/SImpleLaundryuk/SImpleLaundryuk/SImpleLaundryuk.csproj",
+  "expectedPackageFiles": [
+    "/Users/user/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/user/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/user/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/user/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/user/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/user/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
