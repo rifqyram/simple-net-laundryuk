@@ -4,14 +4,80 @@
     "/Users/user/RiderProjects/SImpleLaundryuk/SImpleLaundryuk/SImpleLaundryuk.csproj": {}
   },
   "projects": {
-    "/Users/user/RiderProjects/SImpleLaundryuk/SImpleLaundryuk/SImpleLaundryuk.csproj": {
+    "/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Application/SimpleLaundryuk.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/user/RiderProjects/SImpleLaundryuk/SImpleLaundryuk/SImpleLaundryuk.csproj",
-        "projectName": "SImpleLaundryuk",
-        "projectPath": "/Users/user/RiderProjects/SImpleLaundryuk/SImpleLaundryuk/SImpleLaundryuk.csproj",
+        "projectUniqueName": "/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Application/SimpleLaundryuk.Application.csproj",
+        "projectName": "SimpleLaundryuk.Application",
+        "projectPath": "/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Application/SimpleLaundryuk.Application.csproj",
         "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/user/RiderProjects/SImpleLaundryuk/SImpleLaundryuk/obj/",
+        "outputPath": "/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Entity/SimpleLaundryuk.Entity.csproj": {
+                "projectPath": "/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Entity/SimpleLaundryuk.Entity.csproj"
+              },
+              "/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Infrastructure/SimpleLaundryuk.Infrastructure.csproj": {
+                "projectPath": "/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Infrastructure/SimpleLaundryuk.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Entity/SimpleLaundryuk.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Entity/SimpleLaundryuk.Entity.csproj",
+        "projectName": "SimpleLaundryuk.Entity",
+        "projectPath": "/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Entity/SimpleLaundryuk.Entity.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Entity/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/user/.nuget/NuGet/NuGet.Config"
@@ -37,10 +103,155 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Infrastructure/SimpleLaundryuk.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Infrastructure/SimpleLaundryuk.Infrastructure.csproj",
+        "projectName": "SimpleLaundryuk.Infrastructure",
+        "projectPath": "/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Infrastructure/SimpleLaundryuk.Infrastructure.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Entity/SimpleLaundryuk.Entity.csproj": {
+                "projectPath": "/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Entity/SimpleLaundryuk.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/user/RiderProjects/SImpleLaundryuk/SImpleLaundryuk/SImpleLaundryuk.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/user/RiderProjects/SImpleLaundryuk/SImpleLaundryuk/SImpleLaundryuk.csproj",
+        "projectName": "SImpleLaundryuk",
+        "projectPath": "/Users/user/RiderProjects/SImpleLaundryuk/SImpleLaundryuk/SImpleLaundryuk.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/RiderProjects/SImpleLaundryuk/SImpleLaundryuk/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Application/SimpleLaundryuk.Application.csproj": {
+                "projectPath": "/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Application/SimpleLaundryuk.Application.csproj"
+              },
+              "/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Infrastructure/SimpleLaundryuk.Infrastructure.csproj": {
+                "projectPath": "/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Infrastructure/SimpleLaundryuk.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.Diagnostics.Tools": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [

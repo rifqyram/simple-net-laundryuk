@@ -6,4 +6,17 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Services\BillDetailServices" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="12.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SimpleLaundryuk.Entity\SimpleLaundryuk.Entity.csproj" />
+      <ProjectReference Include="..\SimpleLaundryuk.Infrastructure\SimpleLaundryuk.Infrastructure.csproj" />
+    </ItemGroup>
+
 </Project>
