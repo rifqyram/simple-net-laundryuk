@@ -1,0 +1,15 @@
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Infrastructure/bin/Debug/net6.0/SimpleLaundryuk.Infrastructure.deps.json
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Infrastructure/bin/Debug/net6.0/SimpleLaundryuk.Infrastructure.dll
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Infrastructure/bin/Debug/net6.0/SimpleLaundryuk.Infrastructure.pdb
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Infrastructure/bin/Debug/net6.0/SimpleLaundryuk.Entity.dll
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Infrastructure/bin/Debug/net6.0/SimpleLaundryuk.Entity.pdb
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Infrastructure/obj/Debug/net6.0/SimpleLaundryuk.Infrastructure.csproj.AssemblyReference.cache
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Infrastructure/obj/Debug/net6.0/SimpleLaundryuk.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Infrastructure/obj/Debug/net6.0/SimpleLaundryuk.Infrastructure.AssemblyInfoInputs.cache
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Infrastructure/obj/Debug/net6.0/SimpleLaundryuk.Infrastructure.AssemblyInfo.cs
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Infrastructure/obj/Debug/net6.0/SimpleLaundryuk.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Infrastructure/obj/Debug/net6.0/SimpleLaundryuk.Infrastructure.csproj.CopyComplete
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Infrastructure/obj/Debug/net6.0/SimpleLaundryuk.Infrastructure.dll
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Infrastructure/obj/Debug/net6.0/refint/SimpleLaundryuk.Infrastructure.dll
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Infrastructure/obj/Debug/net6.0/SimpleLaundryuk.Infrastructure.pdb
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Infrastructure/obj/Debug/net6.0/ref/SimpleLaundryuk.Infrastructure.dll

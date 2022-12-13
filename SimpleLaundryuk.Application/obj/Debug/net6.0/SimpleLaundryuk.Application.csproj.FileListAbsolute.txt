@@ -1,0 +1,17 @@
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Application/bin/Debug/net6.0/SimpleLaundryuk.Application.deps.json
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Application/bin/Debug/net6.0/SimpleLaundryuk.Application.dll
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Application/bin/Debug/net6.0/SimpleLaundryuk.Application.pdb
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Application/bin/Debug/net6.0/SimpleLaundryuk.Entity.dll
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Application/bin/Debug/net6.0/SimpleLaundryuk.Infrastructure.dll
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Application/bin/Debug/net6.0/SimpleLaundryuk.Entity.pdb
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Application/bin/Debug/net6.0/SimpleLaundryuk.Infrastructure.pdb
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Application/obj/Debug/net6.0/SimpleLaundryuk.Application.csproj.AssemblyReference.cache
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Application/obj/Debug/net6.0/SimpleLaundryuk.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Application/obj/Debug/net6.0/SimpleLaundryuk.Application.AssemblyInfoInputs.cache
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Application/obj/Debug/net6.0/SimpleLaundryuk.Application.AssemblyInfo.cs
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Application/obj/Debug/net6.0/SimpleLaundryuk.Application.csproj.CoreCompileInputs.cache
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Application/obj/Debug/net6.0/SimpleLaundryuk.Application.csproj.CopyComplete
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Application/obj/Debug/net6.0/SimpleLaundryuk.Application.dll
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Application/obj/Debug/net6.0/refint/SimpleLaundryuk.Application.dll
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Application/obj/Debug/net6.0/SimpleLaundryuk.Application.pdb
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Application/obj/Debug/net6.0/ref/SimpleLaundryuk.Application.dll

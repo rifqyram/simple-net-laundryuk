@@ -1,0 +1,12 @@
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Entity/bin/Debug/net6.0/SimpleLaundryuk.Entity.deps.json
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Entity/bin/Debug/net6.0/SimpleLaundryuk.Entity.dll
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Entity/bin/Debug/net6.0/SimpleLaundryuk.Entity.pdb
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Entity/obj/Debug/net6.0/SimpleLaundryuk.Entity.csproj.AssemblyReference.cache
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Entity/obj/Debug/net6.0/SimpleLaundryuk.Entity.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Entity/obj/Debug/net6.0/SimpleLaundryuk.Entity.AssemblyInfoInputs.cache
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Entity/obj/Debug/net6.0/SimpleLaundryuk.Entity.AssemblyInfo.cs
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Entity/obj/Debug/net6.0/SimpleLaundryuk.Entity.csproj.CoreCompileInputs.cache
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Entity/obj/Debug/net6.0/SimpleLaundryuk.Entity.dll
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Entity/obj/Debug/net6.0/refint/SimpleLaundryuk.Entity.dll
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Entity/obj/Debug/net6.0/SimpleLaundryuk.Entity.pdb
+/Users/user/RiderProjects/SImpleLaundryuk/SimpleLaundryuk.Entity/obj/Debug/net6.0/ref/SimpleLaundryuk.Entity.dll
