@@ -28,4 +28,11 @@ public class TransactionController : ControllerBase
         var billResponse = await _billService.GetTransactionById(id);
         return Ok(billResponse);
     }
+
+    [HttpGet("report")]
+    public async Task<IActionResult> GetReport()
+    {
+        var billResponses = await _billService.GetReport();
+        return Ok(billResponses);
+    }
 }

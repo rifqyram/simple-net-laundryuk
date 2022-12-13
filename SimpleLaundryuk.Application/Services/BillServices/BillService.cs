@@ -97,10 +97,10 @@ public class BillService : IBillService
     public async Task<BillResponse> GetTransactionById(string id)
     {
         var bill = await FindByIdOrThrowNotFound(id);
-        
+
         var billDetailResponses = new List<BillDetailResponse>();
         var grandTotal = 0;
-        
+
         foreach (var billDetail in bill.BillDetails!)
         {
             var billDetailResponse = new BillDetailResponse
@@ -123,7 +123,7 @@ public class BillService : IBillService
             billDetailResponses.Add(billDetailResponse);
             grandTotal += billDetail.ProductPrice.Price * billDetail.Weight;
         }
-        
+
         return new BillResponse
         {
             Id = bill.Id.ToString(),
@@ -134,16 +134,60 @@ public class BillService : IBillService
         };
     }
 
-    public Task<List<BillResponse>> GetReport()
+    public async Task<List<BillResponse>> GetReport()
     {
-        throw new NotImplementedException();
+        var enumerableBill = await _repository.FindAll(new[] { "BillDetails.ProductPrice.Product", "Customer" });
+        var bills = enumerableBill.ToList();
+
+        var billResponses = new List<BillResponse>();
+        var billDetailResponses = new List<BillDetailResponse>();
+        var grandTotal = 0;
+        
+        foreach (var bill in bills)
+        {
+            foreach (var billDetail in bill.BillDetails!)
+            {
+                var billDetailResponse = new BillDetailResponse
+                {
+                    Id = billDetail.Id.ToString(),
+                    Weight = billDetail.Weight,
+                    ProductPrice = new ProductPriceResponse
+                    {
+                        Id = billDetail.ProductPrice.Id.ToString(),
+                        Price = billDetail.ProductPrice.Price,
+                        IsActive = billDetail.ProductPrice.IsActive,
+                        Product = new ProductResponse
+                        {
+                            Id = billDetail.ProductPrice.Product.Id.ToString(),
+                            Name = billDetail.ProductPrice.Product.Name,
+                            Duration = billDetail.ProductPrice.Product.Duration,
+                        }
+                    }
+                };
+                billDetailResponses.Add(billDetailResponse);
+                grandTotal += billDetail.ProductPrice.Price * billDetail.Weight;
+            }
+
+            var billResponse = new BillResponse
+            {
+                Id = bill.Id.ToString(),
+                TransDate = bill.TransDate,
+                CustomerId = bill.Customer.Id.ToString(),
+                BillDetails = billDetailResponses,
+                GrandTotal = grandTotal
+            };
+            billResponses.Add(billResponse);
+        }
+
+        return billResponses;
     }
 
     private async Task<Bill> FindByIdOrThrowNotFound(string id)
     {
         try
         {
-            var bill = await _repository.FindById(Guid.Parse(id), new []{ "BillDetails.ProductPrice.Product", "Customer" });
+            var bill = await _repository.FindById(Guid.Parse(id),
+                new[] { "BillDetails.ProductPrice.Product", "Customer" });
             if (bill is null) throw new Exception("bill not found");
             return bill;
         }
